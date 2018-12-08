@@ -1,0 +1,53 @@
+Success!
+Success!
+Success!
+Success!
+Success!
+Success!
+Success!
+Success!
+Success!
+Success!
+Usage: accept-invite <user> <id>
+a did not invite you
+Success!
+Success!
+Success!
+DeMo_user3 did not invite you
+DeMo_user4 did not invite you
+DeMo_user5 did not invite you
+DeMo_user6 did not invite you
+Success!
+Success!
+Success!
+DeMo_user10 did not invite you
+DeMo_user1 did not invite you
+DeMo_user2 did not invite you
+DeMo_user3 did not invite you
+DeMo_user4 did not invite you
+DeMo_user5 did not invite you
+DeMo_user6 did not invite you
+DeMo_user7 did not invite you
+DeMo_user8 did not invite you
+DeMo_user9 did not invite you
+DeMo_user2 is already your friend
+DeMo_user3 is already your friend
+Already invited
+Already invited
+DeMo_user8 is already your friend
+DeMo_user9 is already your friend
+DeMo_user10 is already your friend
+No invitations
+No invitations
+No invitations
+No invitations
+DeMo_user3
+No invitations
+DeMo_user5
+No invitations
+No invitations
+No invitations
+Not login yet
+Not login yet
+Not login yet
+Not login yet

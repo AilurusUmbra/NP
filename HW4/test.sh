@@ -1,0 +1,11 @@
+python3 client.py  127.0.0.1 3037 < ./test/testdata/1.txt > a1
+python3 client.py  127.0.0.1 3037 < ./test/testdata/2.txt > a2
+python3 client.py  127.0.0.1 3037 < ./test/testdata/3.txt > a3
+python3 client.py  127.0.0.1 3037 < ./test/testdata/4.txt > a4
+python3 client.py  127.0.0.1 3037 < ./test/testdata/5.txt > a5
+python3 client.py  127.0.0.1 3037 < ./test/testdata/6.txt > a6
+python3 client.py  127.0.0.1 3037 < ./test/testdata/7.txt > a7
+python3 client.py  127.0.0.1 3037 < ./test/testdata/8.txt > a8
+python3 client.py  127.0.0.1 3037 < ./test/testdata/9.txt > a9
+python3 client.py  127.0.0.1 3037 < ./test/testdata/10.txt > a10
+python3 client.py  127.0.0.1 3037 < ./test/testdata/11.txt > a11

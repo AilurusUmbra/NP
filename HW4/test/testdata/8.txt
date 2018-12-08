@@ -1,0 +1,54 @@
+login DeMo_user1 DeMo_pwd1
+login DeMo_user2 DeMo_pwd2
+login DeMo_user3 DeMo_pwd3
+login DeMo_user4 DeMo_pwd4
+login DeMo_user5 DeMo_pwd5
+login DeMo_user6 DeMo_pwd6
+login DeMo_user7 DeMo_pwd7
+login DeMo_user8 DeMo_pwd8
+login DeMo_user9 DeMo_pwd9
+login DeMo_user10 DeMo_pwd10
+list-friend DeMo_user1 a
+list-friend DeMo_user1
+login DeMo_user1 DeMo_pwd1
+list-friend DeMo_user2
+login DeMo_user1 DeMo_pwd1
+list-friend DeMo_user3
+login DeMo_user1 DeMo_pwd1
+list-friend DeMo_user4
+login DeMo_user1 DeMo_pwd1
+list-friend DeMo_user5
+login DeMo_user1 DeMo_pwd1
+list-friend DeMo_user6
+login DeMo_user1 DeMo_pwd1
+list-friend DeMo_user7
+login DeMo_user1 DeMo_pwd1
+list-friend DeMo_user8
+login DeMo_user1 DeMo_pwd1
+list-friend DeMo_user9
+login DeMo_user1 DeMo_pwd1
+list-friend DeMo_user10
+login DeMo_user1 DeMo_pwd1
+list-friend DeMo_user10
+login DeMo_user1 DeMo_pwd1
+list-friend DeMo_user9
+login DeMo_user1 DeMo_pwd1
+list-friend DeMo_user8
+login DeMo_user1 DeMo_pwd1
+list-friend DeMo_user7
+login DeMo_user1 DeMo_pwd1
+list-friend DeMo_user6
+login DeMo_user1 DeMo_pwd1
+list-friend DeMo_user5
+login DeMo_user1 DeMo_pwd1
+list-friend DeMo_user4
+login DeMo_user1 DeMo_pwd1
+list-friend DeMo_user3
+login DeMo_user1 DeMo_pwd1
+list-friend DeMo_user2
+login DeMo_user1 DeMo_pwd1
+list-friend DeMo_user1
+list-friend
+list-friend a
+list-friend a b
+exit

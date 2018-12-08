@@ -1,0 +1,36 @@
+login DeMo_user1 DeMo_pwd1
+login DeMo_user2 DeMo_pwd2
+login DeMo_user3 DeMo_pwd3
+login DeMo_user4 DeMo_pwd4
+login DeMo_user5 DeMo_pwd5
+login DeMo_user6 DeMo_pwd6
+login DeMo_user7 DeMo_pwd7
+login DeMo_user8 DeMo_pwd8
+login DeMo_user9 DeMo_pwd9
+login DeMo_user10 DeMo_pwd10
+post DeMo_user1
+post DeMo_user1 HI, I AM USER1.
+post DeMo_user2 HI, I AM USER2.
+post DeMo_user3 HI, I AM USER3.
+post DeMo_user4 HI, I AM USER4.
+post DeMo_user5 HI, I AM USER5.
+post DeMo_user6 HI, I AM USER6.
+post DeMo_user7 HI, I AM USER7.
+post DeMo_user8 HI, I AM USER8.
+post DeMo_user9 HI, I AM USER9.
+post DeMo_user10 HI, I AM USER10.
+post DeMo_user1 WELCOME TO HAPPY PROJECT 3! USER10, USER2
+post DeMo_user2 WELCOME TO HAPPY PROJECT 3! USER1, USER3
+post DeMo_user3 WELCOME TO HAPPY PROJECT 3! USER2, USER4
+post DeMo_user4 WELCOME TO HAPPY PROJECT 3! USER3, USER5
+post DeMo_user5 WELCOME TO HAPPY PROJECT 3! USER4, USER6
+post DeMo_user6 WELCOME TO HAPPY PROJECT 3! USER5, USER7
+post DeMo_user7 WELCOME TO HAPPY PROJECT 3! USER6, USER8
+post DeMo_user8 WELCOME TO HAPPY PROJECT 3! USER7, USER9
+post DeMo_user9 WELCOME TO HAPPY PROJECT 3! USER8, USER10
+post DeMo_user10 WELCOME TO HAPPY PROJECT 3! USER9, USER1
+post
+post a
+post a b
+post a b c
+exit

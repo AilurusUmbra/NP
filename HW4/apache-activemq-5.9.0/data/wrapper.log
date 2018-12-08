@@ -1,0 +1,645 @@
+STATUS | wrapper  | 2018/12/08 21:37:39 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2018/12/08 21:37:39 | Launching a JVM...
+INFO   | jvm 1    | 2018/12/08 21:37:41 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2018/12/08 21:37:41 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2018/12/08 21:37:41 | 
+INFO   | jvm 1    | 2018/12/08 21:37:41 | 
+INFO   | jvm 1    | 2018/12/08 21:37:41 | WARNING - Unable to load the Wrapper's native library because none of the
+INFO   | jvm 1    | 2018/12/08 21:37:41 |           following files:
+INFO   | jvm 1    | 2018/12/08 21:37:41 |             libwrapper-macosx-x86-64.dylib
+INFO   | jvm 1    | 2018/12/08 21:37:41 |             libwrapper-macosx-universal-64.dylib
+INFO   | jvm 1    | 2018/12/08 21:37:41 |             libwrapper.dylib
+INFO   | jvm 1    | 2018/12/08 21:37:41 |           could be located on the following java.library.path:
+INFO   | jvm 1    | 2018/12/08 21:37:41 |             /Users/ailurus/NP/HW4/apache-activemq-5.9.0/bin/macosx/../../bin/macosx
+INFO   | jvm 1    | 2018/12/08 21:37:41 |           Please see the documentation for the wrapper.java.library.path
+INFO   | jvm 1    | 2018/12/08 21:37:41 |           configuration property.
+INFO   | jvm 1    | 2018/12/08 21:37:41 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2018/12/08 21:37:41 | 
+INFO   | jvm 1    | 2018/12/08 21:37:41 | Java Runtime: Oracle Corporation 11 /Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home
+INFO   | jvm 1    | 2018/12/08 21:37:41 |   Heap sizes: current=131072k  free=121567k  max=1048576k
+INFO   | jvm 1    | 2018/12/08 21:37:41 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Dhawtio.realm=activemq -Dhawtio.role=admins -Dhawtio.rolePrincipalClasses=org.apache.activemq.jaas.GroupPrincipal -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/macosx/ -Dwrapper.key=4cNvP1GjapsNy2Bl -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=42946 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.service=TRUE -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2018/12/08 21:37:41 | Extensions classpath:
+INFO   | jvm 1    | 2018/12/08 21:37:41 |   [../../lib,../../lib/camel,../../lib/optional,../../lib/web,../../lib/extra]
+INFO   | jvm 1    | 2018/12/08 21:37:41 | ACTIVEMQ_HOME: ../..
+INFO   | jvm 1    | 2018/12/08 21:37:41 | ACTIVEMQ_BASE: ../..
+INFO   | jvm 1    | 2018/12/08 21:37:41 | ACTIVEMQ_CONF: ../../conf
+INFO   | jvm 1    | 2018/12/08 21:37:41 | ACTIVEMQ_DATA: ../../data
+INFO   | jvm 1    | 2018/12/08 21:37:41 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2018/12/08 21:37:41 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@1691a871: startup date [Sat Dec 08 21:37:41 CST 2018]; root of context hierarchy
+INFO   | jvm 1    | 2018/12/08 21:37:43 |  INFO | PListStore:[/Users/ailurus/NP/HW4/apache-activemq-5.9.0/bin/macosx/../../data/localhost/tmp_storage] started
+INFO   | jvm 1    | 2018/12/08 21:37:43 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/ailurus/NP/HW4/apache-activemq-5.9.0/bin/macosx/../../data/kahadb]
+INFO   | jvm 1    | 2018/12/08 21:37:43 |  INFO | Apache ActiveMQ 5.9.0 (localhost, ID:Ailurus-MAC.mshome.net-64373-1544276263716-0:1) is starting
+INFO   | jvm 1    | 2018/12/08 21:37:43 |  INFO | Listening for connections at: tcp://Ailurus-MAC.mshome.net:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2018/12/08 21:37:43 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2018/12/08 21:37:43 |  INFO | Listening for connections at: amqp://Ailurus-MAC.mshome.net:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2018/12/08 21:37:43 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2018/12/08 21:37:43 |  INFO | Listening for connections at: stomp://Ailurus-MAC.mshome.net:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2018/12/08 21:37:43 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2018/12/08 21:37:43 |  INFO | Listening for connections at: mqtt://Ailurus-MAC.mshome.net:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2018/12/08 21:37:43 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2018/12/08 21:37:44 |  INFO | Listening for connections at ws://Ailurus-MAC.mshome.net:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2018/12/08 21:37:44 |  INFO | Connector ws started
+INFO   | jvm 1    | 2018/12/08 21:37:44 |  INFO | Apache ActiveMQ 5.9.0 (localhost, ID:Ailurus-MAC.mshome.net-64373-1544276263716-0:1) started
+INFO   | jvm 1    | 2018/12/08 21:37:44 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2018/12/08 21:37:44 |  INFO | Welcome to hawtio 1.2-M23 : http://hawt.io/ : Don't cha wish your console was hawt like me? ;-)
+INFO   | jvm 1    | 2018/12/08 21:37:44 |  INFO | Starting hawtio authentication filter, JAAS realm: "activemq" authorized role: "admins" role principal classes: "org.apache.activemq.jaas.GroupPrincipal"
+INFO   | jvm 1    | 2018/12/08 21:37:44 |  INFO | Using file upload directory: /var/folders/hj/fx5f9fvd50v6hv_ww9yh35mm0000gn/T//uploads
+INFO   | jvm 1    | 2018/12/08 21:37:44 |  INFO | jolokia-agent: Using access restrictor classpath:/jolokia-access.xml
+INFO   | jvm 1    | 2018/12/08 21:37:44 |  INFO | ActiveMQ WebConsole available at http://localhost:8161/
+INFO   | jvm 1    | 2018/12/08 21:37:44 |  INFO | Initializing Spring FrameworkServlet 'dispatcher'
+INFO   | jvm 1    | 2018/12/08 21:37:59 | ERROR: Compilation error
+INFO   | jvm 1    | 2018/12/08 21:37:59 | org.eclipse.jdt.internal.compiler.classfmt.ClassFormatException
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jdt.internal.compiler.classfmt.ClassFileReader.<init>(ClassFileReader.java:298)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.apache.jasper.compiler.JDTJavaCompiler$1.findType(JDTJavaCompiler.java:367)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.apache.jasper.compiler.JDTJavaCompiler$1.findType(JDTJavaCompiler.java:339)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForType(LookupEnvironment.java:119)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jdt.internal.compiler.lookup.PackageBinding.getTypeOrPackage(PackageBinding.java:178)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jdt.internal.compiler.lookup.Scope.getPackage(Scope.java:2149)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jdt.internal.compiler.ast.QualifiedTypeReference.getTypeBinding(QualifiedTypeReference.java:62)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jdt.internal.compiler.ast.TypeReference.resolveType(TypeReference.java:124)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jdt.internal.compiler.lookup.SourceTypeBinding.resolveTypeFor(SourceTypeBinding.java:1163)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jdt.internal.compiler.lookup.SourceTypeBinding.fields(SourceTypeBinding.java:630)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jdt.internal.compiler.lookup.SourceTypeBinding.faultInTypesForFieldsAndMethods(SourceTypeBinding.java:616)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.faultInTypes(CompilationUnitScope.java:397)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jdt.internal.compiler.Compiler.process(Compiler.java:505)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:329)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.apache.jasper.compiler.JDTJavaCompiler.compile(JDTJavaCompiler.java:503)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.apache.jasper.compiler.Compiler.generateClass(Compiler.java:368)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:437)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:608)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:360)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:486)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:380)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:806)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:652)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:445)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:574)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1044)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:372)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:978)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.Dispatcher.forward(Dispatcher.java:293)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.Dispatcher.forward(Dispatcher.java:120)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.servlet.DefaultServlet.doGet(DefaultServlet.java:566)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:693)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:806)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:652)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1320)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.apache.activemq.web.filter.ApplicationContextFilter.doFilter(ApplicationContextFilter.java:102)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at com.opensymphony.sitemesh.webapp.SiteMeshFilter.obtainContent(SiteMeshFilter.java:129)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at com.opensymphony.sitemesh.webapp.SiteMeshFilter.doFilter(SiteMeshFilter.java:77)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:443)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1044)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:372)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:978)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.Server.handle(Server.java:367)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:486)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at java.base/java.lang.Thread.run(Thread.java:834)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | ERROR: Compilation error
+INFO   | jvm 1    | 2018/12/08 21:37:59 | org.eclipse.jdt.internal.compiler.classfmt.ClassFormatException
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jdt.internal.compiler.classfmt.ClassFileReader.<init>(ClassFileReader.java:298)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.apache.jasper.compiler.JDTJavaCompiler$1.findType(JDTJavaCompiler.java:367)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.apache.jasper.compiler.JDTJavaCompiler$1.findType(JDTJavaCompiler.java:324)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForType(LookupEnvironment.java:93)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jdt.internal.compiler.lookup.UnresolvedReferenceBinding.resolve(UnresolvedReferenceBinding.java:43)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.resolveType(BinaryTypeBinding.java:50)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getType(LookupEnvironment.java:746)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jdt.internal.compiler.lookup.Scope.getJavaLangClass(Scope.java:2006)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jdt.internal.compiler.ast.ClassLiteralAccess.resolveType(ClassLiteralAccess.java:87)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:291)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jdt.internal.compiler.ast.CastExpression.resolveType(CastExpression.java:392)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:291)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jdt.internal.compiler.ast.Expression.resolve(Expression.java:829)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jdt.internal.compiler.ast.Block.resolveUsing(Block.java:115)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jdt.internal.compiler.ast.TryStatement.resolve(TryStatement.java:504)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:418)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:178)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:396)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1072)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1121)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:305)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jdt.internal.compiler.Compiler.process(Compiler.java:512)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:329)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.apache.jasper.compiler.JDTJavaCompiler.compile(JDTJavaCompiler.java:503)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.apache.jasper.compiler.Compiler.generateClass(Compiler.java:368)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:437)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:608)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:360)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:486)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:380)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:806)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:652)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:445)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:574)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1044)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:372)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:978)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.Dispatcher.forward(Dispatcher.java:293)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.Dispatcher.forward(Dispatcher.java:120)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.servlet.DefaultServlet.doGet(DefaultServlet.java:566)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:693)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:806)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:652)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1320)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.apache.activemq.web.filter.ApplicationContextFilter.doFilter(ApplicationContextFilter.java:102)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at com.opensymphony.sitemesh.webapp.SiteMeshFilter.obtainContent(SiteMeshFilter.java:129)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at com.opensymphony.sitemesh.webapp.SiteMeshFilter.doFilter(SiteMeshFilter.java:77)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:443)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1044)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:372)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:978)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.Server.handle(Server.java:367)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:486)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at java.base/java.lang.Thread.run(Thread.java:834)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | ERROR: Error compiling file: /private/var/folders/hj/fx5f9fvd50v6hv_ww9yh35mm0000gn/T/jetty-0.0.0.0-8161-admin-_admin-any-/jsp/org/apache/jsp/index_jsp.java
+INFO   | jvm 1    | 2018/12/08 21:37:59 |  WARN | 
+INFO   | jvm 1    | 2018/12/08 21:37:59 | org.apache.jasper.JasperException: PWC6033: Unable to compile class for JSP
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 
+INFO   | jvm 1    | 2018/12/08 21:37:59 | PWC6199: Generated servlet error:
+INFO   | jvm 1    | 2018/12/08 21:37:59 | The type java.lang.Class cannot be resolved. It is indirectly referenced from required .class files
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 
+INFO   | jvm 1    | 2018/12/08 21:37:59 | PWC6199: Generated servlet error:
+INFO   | jvm 1    | 2018/12/08 21:37:59 | java.util.Vector cannot be resolved to a type
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 
+INFO   | jvm 1    | 2018/12/08 21:37:59 | PWC6199: Generated servlet error:
+INFO   | jvm 1    | 2018/12/08 21:37:59 | _jspx_dependants cannot be resolved
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 
+INFO   | jvm 1    | 2018/12/08 21:37:59 | PWC6199: Generated servlet error:
+INFO   | jvm 1    | 2018/12/08 21:37:59 | java.util.Vector cannot be resolved to a type
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 
+INFO   | jvm 1    | 2018/12/08 21:37:59 | PWC6199: Generated servlet error:
+INFO   | jvm 1    | 2018/12/08 21:37:59 | _jspx_dependants cannot be resolved
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 
+INFO   | jvm 1    | 2018/12/08 21:37:59 | PWC6199: Generated servlet error:
+INFO   | jvm 1    | 2018/12/08 21:37:59 | _jspx_dependants cannot be resolved
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:123)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:296)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.apache.jasper.compiler.Compiler.generateClass(Compiler.java:376)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:437)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:608)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:360)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:486)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:380)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:806)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:652)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:445)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:574)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1044)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:372)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:978)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.Dispatcher.forward(Dispatcher.java:293)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.Dispatcher.forward(Dispatcher.java:120)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.servlet.DefaultServlet.doGet(DefaultServlet.java:566)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:693)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:806)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:652)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1320)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.apache.activemq.web.filter.ApplicationContextFilter.doFilter(ApplicationContextFilter.java:102)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at com.opensymphony.sitemesh.webapp.SiteMeshFilter.obtainContent(SiteMeshFilter.java:129)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at com.opensymphony.sitemesh.webapp.SiteMeshFilter.doFilter(SiteMeshFilter.java:77)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:443)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1044)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:372)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:978)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.Server.handle(Server.java:367)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:486)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at java.base/java.lang.Thread.run(Thread.java:834)
+INFO   | jvm 1    | 2018/12/08 21:37:59 |  WARN | /admin/
+INFO   | jvm 1    | 2018/12/08 21:37:59 | org.apache.jasper.JasperException: PWC6033: Unable to compile class for JSP
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 
+INFO   | jvm 1    | 2018/12/08 21:37:59 | PWC6199: Generated servlet error:
+INFO   | jvm 1    | 2018/12/08 21:37:59 | The type java.lang.Class cannot be resolved. It is indirectly referenced from required .class files
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 
+INFO   | jvm 1    | 2018/12/08 21:37:59 | PWC6199: Generated servlet error:
+INFO   | jvm 1    | 2018/12/08 21:37:59 | java.util.Vector cannot be resolved to a type
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 
+INFO   | jvm 1    | 2018/12/08 21:37:59 | PWC6199: Generated servlet error:
+INFO   | jvm 1    | 2018/12/08 21:37:59 | _jspx_dependants cannot be resolved
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 
+INFO   | jvm 1    | 2018/12/08 21:37:59 | PWC6199: Generated servlet error:
+INFO   | jvm 1    | 2018/12/08 21:37:59 | java.util.Vector cannot be resolved to a type
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 
+INFO   | jvm 1    | 2018/12/08 21:37:59 | PWC6199: Generated servlet error:
+INFO   | jvm 1    | 2018/12/08 21:37:59 | _jspx_dependants cannot be resolved
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 
+INFO   | jvm 1    | 2018/12/08 21:37:59 | PWC6199: Generated servlet error:
+INFO   | jvm 1    | 2018/12/08 21:37:59 | _jspx_dependants cannot be resolved
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:123)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:296)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.apache.jasper.compiler.Compiler.generateClass(Compiler.java:376)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:437)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:608)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:360)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:486)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:380)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:806)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:652)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:445)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:574)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1044)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:372)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:978)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.Dispatcher.forward(Dispatcher.java:293)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.Dispatcher.forward(Dispatcher.java:120)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.servlet.DefaultServlet.doGet(DefaultServlet.java:566)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:693)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:806)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:652)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1320)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.apache.activemq.web.filter.ApplicationContextFilter.doFilter(ApplicationContextFilter.java:102)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at com.opensymphony.sitemesh.webapp.SiteMeshFilter.obtainContent(SiteMeshFilter.java:129)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at com.opensymphony.sitemesh.webapp.SiteMeshFilter.doFilter(SiteMeshFilter.java:77)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:443)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1044)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:372)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:978)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.Server.handle(Server.java:367)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:486)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+INFO   | jvm 1    | 2018/12/08 21:37:59 | 	at java.base/java.lang.Thread.run(Thread.java:834)
+STATUS | wrapper  | 2018/12/08 21:48:22 | TERM trapped.  Shutting down.
+INFO   | jvm 1    | 2018/12/08 21:48:23 |  INFO | Apache ActiveMQ 5.9.0 (localhost, ID:Ailurus-MAC.mshome.net-64373-1544276263716-0:1) is shutting down
+INFO   | jvm 1    | 2018/12/08 21:48:25 |  INFO | Connector openwire stopped
+INFO   | jvm 1    | 2018/12/08 21:48:27 |  INFO | Connector amqp stopped
+INFO   | jvm 1    | 2018/12/08 21:48:27 |  INFO | Connector stomp stopped
+INFO   | jvm 1    | 2018/12/08 21:48:29 |  INFO | Connector mqtt stopped
+INFO   | jvm 1    | 2018/12/08 21:48:29 |  INFO | Connector ws stopped
+INFO   | jvm 1    | 2018/12/08 21:48:29 |  INFO | PListStore:[/Users/ailurus/NP/HW4/apache-activemq-5.9.0/bin/macosx/../../data/localhost/tmp_storage] stopped
+INFO   | jvm 1    | 2018/12/08 21:48:29 |  INFO | Stopping async queue tasks
+INFO   | jvm 1    | 2018/12/08 21:48:29 |  INFO | Stopping async topic tasks
+INFO   | jvm 1    | 2018/12/08 21:48:29 |  INFO | Stopped KahaDB
+INFO   | jvm 1    | 2018/12/08 21:48:29 |  INFO | Apache ActiveMQ 5.9.0 (localhost, ID:Ailurus-MAC.mshome.net-64373-1544276263716-0:1) uptime 10 minutes
+INFO   | jvm 1    | 2018/12/08 21:48:29 |  INFO | Apache ActiveMQ 5.9.0 (localhost, ID:Ailurus-MAC.mshome.net-64373-1544276263716-0:1) is shutdown
+INFO   | jvm 1    | 2018/12/08 21:48:29 |  INFO | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@1691a871: startup date [Sat Dec 08 21:37:41 CST 2018]; root of context hierarchy
+INFO   | jvm 1    | 2018/12/08 21:48:29 |  INFO | Destroying Spring FrameworkServlet 'dispatcher'
+INFO   | jvm 1    | 2018/12/08 21:48:29 |  INFO | Destroying hawtio authentication filter
+STATUS | wrapper  | 2018/12/08 21:48:29 | <-- Wrapper Stopped
+STATUS | wrapper  | 2018/12/08 21:48:38 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2018/12/08 21:48:38 | Launching a JVM...
+INFO   | jvm 1    | 2018/12/08 21:48:39 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2018/12/08 21:48:39 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2018/12/08 21:48:39 | 
+INFO   | jvm 1    | 2018/12/08 21:48:39 | 
+INFO   | jvm 1    | 2018/12/08 21:48:39 | WARNING - Unable to load the Wrapper's native library because none of the
+INFO   | jvm 1    | 2018/12/08 21:48:39 |           following files:
+INFO   | jvm 1    | 2018/12/08 21:48:39 |             libwrapper-macosx-x86-64.dylib
+INFO   | jvm 1    | 2018/12/08 21:48:39 |             libwrapper-macosx-universal-64.dylib
+INFO   | jvm 1    | 2018/12/08 21:48:39 |             libwrapper.dylib
+INFO   | jvm 1    | 2018/12/08 21:48:39 |           could be located on the following java.library.path:
+INFO   | jvm 1    | 2018/12/08 21:48:39 |             /Users/ailurus/NP/HW4/apache-activemq-5.9.0/bin/macosx/../../bin/macosx
+INFO   | jvm 1    | 2018/12/08 21:48:39 |           Please see the documentation for the wrapper.java.library.path
+INFO   | jvm 1    | 2018/12/08 21:48:39 |           configuration property.
+INFO   | jvm 1    | 2018/12/08 21:48:39 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2018/12/08 21:48:39 | 
+INFO   | jvm 1    | 2018/12/08 21:48:39 | Java Runtime: Oracle Corporation 11 /Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home
+INFO   | jvm 1    | 2018/12/08 21:48:39 |   Heap sizes: current=131072k  free=121567k  max=1048576k
+INFO   | jvm 1    | 2018/12/08 21:48:39 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Dhawtio.realm=activemq -Dhawtio.role=admins -Dhawtio.rolePrincipalClasses=org.apache.activemq.jaas.GroupPrincipal -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/macosx/ -Dwrapper.key=mhtyXCOtNF3JH7vD -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=43396 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.service=TRUE -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2018/12/08 21:48:39 | Extensions classpath:
+INFO   | jvm 1    | 2018/12/08 21:48:39 |   [../../lib,../../lib/camel,../../lib/optional,../../lib/web,../../lib/extra]
+INFO   | jvm 1    | 2018/12/08 21:48:39 | ACTIVEMQ_HOME: ../..
+INFO   | jvm 1    | 2018/12/08 21:48:39 | ACTIVEMQ_BASE: ../..
+INFO   | jvm 1    | 2018/12/08 21:48:39 | ACTIVEMQ_CONF: ../../conf
+INFO   | jvm 1    | 2018/12/08 21:48:39 | ACTIVEMQ_DATA: ../../data
+INFO   | jvm 1    | 2018/12/08 21:48:39 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2018/12/08 21:48:39 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@74f36340: startup date [Sat Dec 08 21:48:39 CST 2018]; root of context hierarchy
+INFO   | jvm 1    | 2018/12/08 21:48:40 |  INFO | PListStore:[/Users/ailurus/NP/HW4/apache-activemq-5.9.0/bin/macosx/../../data/localhost/tmp_storage] started
+INFO   | jvm 1    | 2018/12/08 21:48:40 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/ailurus/NP/HW4/apache-activemq-5.9.0/bin/macosx/../../data/kahadb]
+INFO   | jvm 1    | 2018/12/08 21:48:41 |  INFO | KahaDB is version 5
+INFO   | jvm 1    | 2018/12/08 21:48:41 |  INFO | Recovering from the journal ...
+INFO   | jvm 1    | 2018/12/08 21:48:41 |  INFO | Recovery replayed 129 operations from the journal in 0.024 seconds.
+INFO   | jvm 1    | 2018/12/08 21:48:41 |  INFO | Apache ActiveMQ 5.9.0 (localhost, ID:Ailurus-MAC.mshome.net-64486-1544276921000-0:1) is starting
+INFO   | jvm 1    | 2018/12/08 21:48:41 |  INFO | Listening for connections at: tcp://Ailurus-MAC.mshome.net:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2018/12/08 21:48:41 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2018/12/08 21:48:41 |  INFO | Listening for connections at: amqp://Ailurus-MAC.mshome.net:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2018/12/08 21:48:41 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2018/12/08 21:48:41 |  INFO | Listening for connections at: stomp://Ailurus-MAC.mshome.net:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2018/12/08 21:48:41 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2018/12/08 21:48:41 |  INFO | Listening for connections at: mqtt://Ailurus-MAC.mshome.net:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2018/12/08 21:48:41 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2018/12/08 21:48:41 |  INFO | Listening for connections at ws://Ailurus-MAC.mshome.net:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2018/12/08 21:48:41 |  INFO | Connector ws started
+INFO   | jvm 1    | 2018/12/08 21:48:41 |  INFO | Apache ActiveMQ 5.9.0 (localhost, ID:Ailurus-MAC.mshome.net-64486-1544276921000-0:1) started
+INFO   | jvm 1    | 2018/12/08 21:48:41 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2018/12/08 21:48:41 |  INFO | Welcome to hawtio 1.2-M23 : http://hawt.io/ : Don't cha wish your console was hawt like me? ;-)
+INFO   | jvm 1    | 2018/12/08 21:48:41 |  INFO | Starting hawtio authentication filter, JAAS realm: "activemq" authorized role: "admins" role principal classes: "org.apache.activemq.jaas.GroupPrincipal"
+INFO   | jvm 1    | 2018/12/08 21:48:41 |  INFO | Using file upload directory: /var/folders/hj/fx5f9fvd50v6hv_ww9yh35mm0000gn/T//uploads
+INFO   | jvm 1    | 2018/12/08 21:48:41 |  INFO | jolokia-agent: Using access restrictor classpath:/jolokia-access.xml
+INFO   | jvm 1    | 2018/12/08 21:48:42 |  INFO | ActiveMQ WebConsole available at http://localhost:8161/
+INFO   | jvm 1    | 2018/12/08 21:48:42 |  INFO | Initializing Spring FrameworkServlet 'dispatcher'
+STATUS | wrapper  | 2018/12/08 21:48:54 | TERM trapped.  Shutting down.
+INFO   | jvm 1    | 2018/12/08 21:48:54 |  INFO | Apache ActiveMQ 5.9.0 (localhost, ID:Ailurus-MAC.mshome.net-64486-1544276921000-0:1) is shutting down
+INFO   | jvm 1    | 2018/12/08 21:48:55 |  INFO | Connector openwire stopped
+INFO   | jvm 1    | 2018/12/08 21:48:57 |  INFO | Connector amqp stopped
+INFO   | jvm 1    | 2018/12/08 21:48:57 |  INFO | Connector stomp stopped
+INFO   | jvm 1    | 2018/12/08 21:48:59 |  INFO | Connector mqtt stopped
+INFO   | jvm 1    | 2018/12/08 21:48:59 |  INFO | Connector ws stopped
+INFO   | jvm 1    | 2018/12/08 21:48:59 |  INFO | PListStore:[/Users/ailurus/NP/HW4/apache-activemq-5.9.0/bin/macosx/../../data/localhost/tmp_storage] stopped
+INFO   | jvm 1    | 2018/12/08 21:48:59 |  INFO | Stopping async queue tasks
+INFO   | jvm 1    | 2018/12/08 21:48:59 |  INFO | Stopping async topic tasks
+INFO   | jvm 1    | 2018/12/08 21:48:59 |  INFO | Stopped KahaDB
+INFO   | jvm 1    | 2018/12/08 21:48:59 |  INFO | Apache ActiveMQ 5.9.0 (localhost, ID:Ailurus-MAC.mshome.net-64486-1544276921000-0:1) uptime 18.890 seconds
+INFO   | jvm 1    | 2018/12/08 21:48:59 |  INFO | Apache ActiveMQ 5.9.0 (localhost, ID:Ailurus-MAC.mshome.net-64486-1544276921000-0:1) is shutdown
+INFO   | jvm 1    | 2018/12/08 21:48:59 |  INFO | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@74f36340: startup date [Sat Dec 08 21:48:39 CST 2018]; root of context hierarchy
+INFO   | jvm 1    | 2018/12/08 21:48:59 |  INFO | Destroying Spring FrameworkServlet 'dispatcher'
+INFO   | jvm 1    | 2018/12/08 21:48:59 |  INFO | Destroying hawtio authentication filter
+STATUS | wrapper  | 2018/12/08 21:49:00 | <-- Wrapper Stopped
+STATUS | wrapper  | 2018/12/08 21:49:11 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2018/12/08 21:49:11 | Launching a JVM...
+INFO   | jvm 1    | 2018/12/08 21:49:12 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2018/12/08 21:49:12 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2018/12/08 21:49:12 | 
+INFO   | jvm 1    | 2018/12/08 21:49:12 | 
+INFO   | jvm 1    | 2018/12/08 21:49:12 | WARNING - Unable to load the Wrapper's native library because none of the
+INFO   | jvm 1    | 2018/12/08 21:49:12 |           following files:
+INFO   | jvm 1    | 2018/12/08 21:49:12 |             libwrapper-macosx-x86-64.dylib
+INFO   | jvm 1    | 2018/12/08 21:49:12 |             libwrapper-macosx-universal-64.dylib
+INFO   | jvm 1    | 2018/12/08 21:49:12 |             libwrapper.dylib
+INFO   | jvm 1    | 2018/12/08 21:49:12 |           could be located on the following java.library.path:
+INFO   | jvm 1    | 2018/12/08 21:49:12 |             /Users/ailurus/NP/HW4/apache-activemq-5.9.0/bin/macosx/../../bin/macosx
+INFO   | jvm 1    | 2018/12/08 21:49:12 |           Please see the documentation for the wrapper.java.library.path
+INFO   | jvm 1    | 2018/12/08 21:49:12 |           configuration property.
+INFO   | jvm 1    | 2018/12/08 21:49:12 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2018/12/08 21:49:12 | 
+INFO   | jvm 1    | 2018/12/08 21:49:12 | Java Runtime: Oracle Corporation 11 /Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home
+INFO   | jvm 1    | 2018/12/08 21:49:12 |   Heap sizes: current=131072k  free=121567k  max=1048576k
+INFO   | jvm 1    | 2018/12/08 21:49:12 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Dhawtio.realm=activemq -Dhawtio.role=admins -Dhawtio.rolePrincipalClasses=org.apache.activemq.jaas.GroupPrincipal -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/macosx/ -Dwrapper.key=wx7LJhfbI26iqgyN -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=43599 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.service=TRUE -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2018/12/08 21:49:12 | Extensions classpath:
+INFO   | jvm 1    | 2018/12/08 21:49:12 |   [../../lib,../../lib/camel,../../lib/optional,../../lib/web,../../lib/extra]
+INFO   | jvm 1    | 2018/12/08 21:49:12 | ACTIVEMQ_HOME: ../..
+INFO   | jvm 1    | 2018/12/08 21:49:12 | ACTIVEMQ_BASE: ../..
+INFO   | jvm 1    | 2018/12/08 21:49:12 | ACTIVEMQ_CONF: ../../conf
+INFO   | jvm 1    | 2018/12/08 21:49:12 | ACTIVEMQ_DATA: ../../data
+INFO   | jvm 1    | 2018/12/08 21:49:12 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2018/12/08 21:49:12 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@5871bb75: startup date [Sat Dec 08 21:49:12 CST 2018]; root of context hierarchy
+INFO   | jvm 1    | 2018/12/08 21:49:13 |  INFO | PListStore:[/Users/ailurus/NP/HW4/apache-activemq-5.9.0/bin/macosx/../../data/localhost/tmp_storage] started
+INFO   | jvm 1    | 2018/12/08 21:49:13 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/ailurus/NP/HW4/apache-activemq-5.9.0/bin/macosx/../../data/kahadb]
+INFO   | jvm 1    | 2018/12/08 21:49:13 |  INFO | KahaDB is version 5
+INFO   | jvm 1    | 2018/12/08 21:49:14 |  INFO | Recovering from the journal ...
+INFO   | jvm 1    | 2018/12/08 21:49:14 |  INFO | Recovery replayed 134 operations from the journal in 0.019 seconds.
+INFO   | jvm 1    | 2018/12/08 21:49:14 |  INFO | Apache ActiveMQ 5.9.0 (localhost, ID:Ailurus-MAC.mshome.net-64504-1544276953981-0:1) is starting
+INFO   | jvm 1    | 2018/12/08 21:49:14 |  INFO | Listening for connections at: tcp://Ailurus-MAC.mshome.net:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2018/12/08 21:49:14 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2018/12/08 21:49:14 |  INFO | Listening for connections at: amqp://Ailurus-MAC.mshome.net:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2018/12/08 21:49:14 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2018/12/08 21:49:14 |  INFO | Listening for connections at: stomp://Ailurus-MAC.mshome.net:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2018/12/08 21:49:14 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2018/12/08 21:49:14 |  INFO | Listening for connections at: mqtt://Ailurus-MAC.mshome.net:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2018/12/08 21:49:14 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2018/12/08 21:49:14 |  INFO | Listening for connections at ws://Ailurus-MAC.mshome.net:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2018/12/08 21:49:14 |  INFO | Connector ws started
+INFO   | jvm 1    | 2018/12/08 21:49:14 |  INFO | Apache ActiveMQ 5.9.0 (localhost, ID:Ailurus-MAC.mshome.net-64504-1544276953981-0:1) started
+INFO   | jvm 1    | 2018/12/08 21:49:14 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2018/12/08 21:49:14 |  INFO | Welcome to hawtio 1.2-M23 : http://hawt.io/ : Don't cha wish your console was hawt like me? ;-)
+INFO   | jvm 1    | 2018/12/08 21:49:14 |  INFO | Starting hawtio authentication filter, JAAS realm: "activemq" authorized role: "admins" role principal classes: "org.apache.activemq.jaas.GroupPrincipal"
+INFO   | jvm 1    | 2018/12/08 21:49:14 |  INFO | Using file upload directory: /var/folders/hj/fx5f9fvd50v6hv_ww9yh35mm0000gn/T//uploads
+INFO   | jvm 1    | 2018/12/08 21:49:14 |  INFO | jolokia-agent: Using access restrictor classpath:/jolokia-access.xml
+INFO   | jvm 1    | 2018/12/08 21:49:14 |  INFO | ActiveMQ WebConsole available at http://localhost:8161/
+INFO   | jvm 1    | 2018/12/08 21:49:14 |  INFO | Initializing Spring FrameworkServlet 'dispatcher'
+STATUS | wrapper  | 2018/12/08 21:51:29 | TERM trapped.  Shutting down.
+INFO   | jvm 1    | 2018/12/08 21:51:30 |  INFO | Apache ActiveMQ 5.9.0 (localhost, ID:Ailurus-MAC.mshome.net-64504-1544276953981-0:1) is shutting down
+INFO   | jvm 1    | 2018/12/08 21:51:30 |  INFO | Connector openwire stopped
+INFO   | jvm 1    | 2018/12/08 21:51:30 |  INFO | Connector amqp stopped
+INFO   | jvm 1    | 2018/12/08 21:51:32 |  INFO | Connector stomp stopped
+INFO   | jvm 1    | 2018/12/08 21:51:34 |  INFO | Connector mqtt stopped
+INFO   | jvm 1    | 2018/12/08 21:51:34 |  INFO | Connector ws stopped
+INFO   | jvm 1    | 2018/12/08 21:51:34 |  INFO | PListStore:[/Users/ailurus/NP/HW4/apache-activemq-5.9.0/bin/macosx/../../data/localhost/tmp_storage] stopped
+INFO   | jvm 1    | 2018/12/08 21:51:34 |  INFO | Stopping async queue tasks
+INFO   | jvm 1    | 2018/12/08 21:51:34 |  INFO | Stopping async topic tasks
+INFO   | jvm 1    | 2018/12/08 21:51:34 |  INFO | Stopped KahaDB
+INFO   | jvm 1    | 2018/12/08 21:51:34 |  INFO | Apache ActiveMQ 5.9.0 (localhost, ID:Ailurus-MAC.mshome.net-64504-1544276953981-0:1) uptime 2 minutes
+INFO   | jvm 1    | 2018/12/08 21:51:34 |  INFO | Apache ActiveMQ 5.9.0 (localhost, ID:Ailurus-MAC.mshome.net-64504-1544276953981-0:1) is shutdown
+INFO   | jvm 1    | 2018/12/08 21:51:34 |  INFO | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@5871bb75: startup date [Sat Dec 08 21:49:12 CST 2018]; root of context hierarchy
+INFO   | jvm 1    | 2018/12/08 21:51:34 |  INFO | Destroying Spring FrameworkServlet 'dispatcher'
+INFO   | jvm 1    | 2018/12/08 21:51:34 |  INFO | Destroying hawtio authentication filter
+STATUS | wrapper  | 2018/12/08 21:51:35 | <-- Wrapper Stopped
+STATUS | wrapper  | 2018/12/08 21:59:01 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2018/12/08 21:59:01 | Launching a JVM...
+INFO   | jvm 1    | 2018/12/08 21:59:01 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2018/12/08 21:59:01 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2018/12/08 21:59:01 | 
+INFO   | jvm 1    | 2018/12/08 21:59:01 | 
+INFO   | jvm 1    | 2018/12/08 21:59:01 | WARNING - Unable to load the Wrapper's native library because none of the
+INFO   | jvm 1    | 2018/12/08 21:59:01 |           following files:
+INFO   | jvm 1    | 2018/12/08 21:59:01 |             libwrapper-macosx-x86-64.dylib
+INFO   | jvm 1    | 2018/12/08 21:59:01 |             libwrapper-macosx-universal-64.dylib
+INFO   | jvm 1    | 2018/12/08 21:59:01 |             libwrapper.dylib
+INFO   | jvm 1    | 2018/12/08 21:59:01 |           could be located on the following java.library.path:
+INFO   | jvm 1    | 2018/12/08 21:59:01 |             /Users/ailurus/NP/HW4/apache-activemq-5.9.0/bin/macosx/../../bin/macosx
+INFO   | jvm 1    | 2018/12/08 21:59:01 |           Please see the documentation for the wrapper.java.library.path
+INFO   | jvm 1    | 2018/12/08 21:59:01 |           configuration property.
+INFO   | jvm 1    | 2018/12/08 21:59:01 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2018/12/08 21:59:01 | 
+INFO   | jvm 1    | 2018/12/08 21:59:02 | Java Runtime: Oracle Corporation 11 /Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home
+INFO   | jvm 1    | 2018/12/08 21:59:02 |   Heap sizes: current=131072k  free=121567k  max=1048576k
+INFO   | jvm 1    | 2018/12/08 21:59:02 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Dhawtio.realm=activemq -Dhawtio.role=admins -Dhawtio.rolePrincipalClasses=org.apache.activemq.jaas.GroupPrincipal -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/macosx/ -Dwrapper.key=u4kb2tK8XWm7RYDu -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=43861 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.service=TRUE -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2018/12/08 21:59:02 | Extensions classpath:
+INFO   | jvm 1    | 2018/12/08 21:59:02 |   [../../lib,../../lib/camel,../../lib/optional,../../lib/web,../../lib/extra]
+INFO   | jvm 1    | 2018/12/08 21:59:02 | ACTIVEMQ_HOME: ../..
+INFO   | jvm 1    | 2018/12/08 21:59:02 | ACTIVEMQ_BASE: ../..
+INFO   | jvm 1    | 2018/12/08 21:59:02 | ACTIVEMQ_CONF: ../../conf
+INFO   | jvm 1    | 2018/12/08 21:59:02 | ACTIVEMQ_DATA: ../../data
+INFO   | jvm 1    | 2018/12/08 21:59:02 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2018/12/08 21:59:02 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@5070b7f: startup date [Sat Dec 08 21:59:02 CST 2018]; root of context hierarchy
+INFO   | jvm 1    | 2018/12/08 21:59:03 |  INFO | PListStore:[/Users/ailurus/NP/HW4/apache-activemq-5.9.0/bin/macosx/../../data/localhost/tmp_storage] started
+INFO   | jvm 1    | 2018/12/08 21:59:03 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/ailurus/NP/HW4/apache-activemq-5.9.0/bin/macosx/../../data/kahadb]
+INFO   | jvm 1    | 2018/12/08 21:59:03 |  INFO | KahaDB is version 5
+INFO   | jvm 1    | 2018/12/08 21:59:03 |  INFO | Recovering from the journal ...
+INFO   | jvm 1    | 2018/12/08 21:59:03 |  INFO | Recovery replayed 163 operations from the journal in 0.021 seconds.
+INFO   | jvm 1    | 2018/12/08 21:59:03 |  INFO | Apache ActiveMQ 5.9.0 (localhost, ID:Ailurus-MAC.mshome.net-64610-1544277543719-0:1) is starting
+INFO   | jvm 1    | 2018/12/08 21:59:04 |  INFO | Listening for connections at: tcp://Ailurus-MAC.mshome.net:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2018/12/08 21:59:04 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2018/12/08 21:59:04 |  INFO | Listening for connections at: amqp://Ailurus-MAC.mshome.net:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2018/12/08 21:59:04 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2018/12/08 21:59:04 |  INFO | Listening for connections at: stomp://Ailurus-MAC.mshome.net:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2018/12/08 21:59:04 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2018/12/08 21:59:04 |  INFO | Listening for connections at: mqtt://Ailurus-MAC.mshome.net:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2018/12/08 21:59:04 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2018/12/08 21:59:04 |  INFO | Listening for connections at ws://Ailurus-MAC.mshome.net:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2018/12/08 21:59:04 |  INFO | Connector ws started
+INFO   | jvm 1    | 2018/12/08 21:59:04 |  INFO | Apache ActiveMQ 5.9.0 (localhost, ID:Ailurus-MAC.mshome.net-64610-1544277543719-0:1) started
+INFO   | jvm 1    | 2018/12/08 21:59:04 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2018/12/08 21:59:04 |  INFO | Welcome to hawtio 1.2-M23 : http://hawt.io/ : Don't cha wish your console was hawt like me? ;-)
+INFO   | jvm 1    | 2018/12/08 21:59:04 |  INFO | Starting hawtio authentication filter, JAAS realm: "activemq" authorized role: "admins" role principal classes: "org.apache.activemq.jaas.GroupPrincipal"
+INFO   | jvm 1    | 2018/12/08 21:59:04 |  INFO | Using file upload directory: /var/folders/hj/fx5f9fvd50v6hv_ww9yh35mm0000gn/T//uploads
+INFO   | jvm 1    | 2018/12/08 21:59:04 |  INFO | jolokia-agent: Using access restrictor classpath:/jolokia-access.xml
+INFO   | jvm 1    | 2018/12/08 21:59:04 |  INFO | ActiveMQ WebConsole available at http://localhost:8161/
+INFO   | jvm 1    | 2018/12/08 21:59:04 |  INFO | Initializing Spring FrameworkServlet 'dispatcher'
+STATUS | wrapper  | 2018/12/08 22:00:00 | TERM trapped.  Shutting down.
+INFO   | jvm 1    | 2018/12/08 22:00:01 |  INFO | Apache ActiveMQ 5.9.0 (localhost, ID:Ailurus-MAC.mshome.net-64610-1544277543719-0:1) is shutting down
+INFO   | jvm 1    | 2018/12/08 22:00:02 |  INFO | Connector openwire stopped
+INFO   | jvm 1    | 2018/12/08 22:00:04 |  INFO | Connector amqp stopped
+INFO   | jvm 1    | 2018/12/08 22:00:05 |  INFO | Connector stomp stopped
+INFO   | jvm 1    | 2018/12/08 22:00:06 |  INFO | Connector mqtt stopped
+INFO   | jvm 1    | 2018/12/08 22:00:06 |  INFO | Connector ws stopped
+INFO   | jvm 1    | 2018/12/08 22:00:06 |  INFO | PListStore:[/Users/ailurus/NP/HW4/apache-activemq-5.9.0/bin/macosx/../../data/localhost/tmp_storage] stopped
+INFO   | jvm 1    | 2018/12/08 22:00:06 |  INFO | Stopping async queue tasks
+INFO   | jvm 1    | 2018/12/08 22:00:06 |  INFO | Stopping async topic tasks
+INFO   | jvm 1    | 2018/12/08 22:00:06 |  INFO | Stopped KahaDB
+INFO   | jvm 1    | 2018/12/08 22:00:06 |  INFO | Apache ActiveMQ 5.9.0 (localhost, ID:Ailurus-MAC.mshome.net-64610-1544277543719-0:1) uptime 1 minute
+INFO   | jvm 1    | 2018/12/08 22:00:06 |  INFO | Apache ActiveMQ 5.9.0 (localhost, ID:Ailurus-MAC.mshome.net-64610-1544277543719-0:1) is shutdown
+INFO   | jvm 1    | 2018/12/08 22:00:06 |  INFO | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@5070b7f: startup date [Sat Dec 08 21:59:02 CST 2018]; root of context hierarchy
+INFO   | jvm 1    | 2018/12/08 22:00:06 |  INFO | Destroying Spring FrameworkServlet 'dispatcher'
+INFO   | jvm 1    | 2018/12/08 22:00:06 |  INFO | Destroying hawtio authentication filter
+STATUS | wrapper  | 2018/12/08 22:00:06 | <-- Wrapper Stopped
+STATUS | wrapper  | 2018/12/08 22:00:07 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2018/12/08 22:00:07 | Launching a JVM...
+INFO   | jvm 1    | 2018/12/08 22:00:08 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2018/12/08 22:00:08 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2018/12/08 22:00:08 | 
+INFO   | jvm 1    | 2018/12/08 22:00:08 | 
+INFO   | jvm 1    | 2018/12/08 22:00:08 | WARNING - Unable to load the Wrapper's native library because none of the
+INFO   | jvm 1    | 2018/12/08 22:00:08 |           following files:
+INFO   | jvm 1    | 2018/12/08 22:00:08 |             libwrapper-macosx-x86-64.dylib
+INFO   | jvm 1    | 2018/12/08 22:00:08 |             libwrapper-macosx-universal-64.dylib
+INFO   | jvm 1    | 2018/12/08 22:00:08 |             libwrapper.dylib
+INFO   | jvm 1    | 2018/12/08 22:00:08 |           could be located on the following java.library.path:
+INFO   | jvm 1    | 2018/12/08 22:00:08 |             /Users/ailurus/NP/HW4/apache-activemq-5.9.0/bin/macosx/../../bin/macosx
+INFO   | jvm 1    | 2018/12/08 22:00:08 |           Please see the documentation for the wrapper.java.library.path
+INFO   | jvm 1    | 2018/12/08 22:00:08 |           configuration property.
+INFO   | jvm 1    | 2018/12/08 22:00:08 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2018/12/08 22:00:08 | 
+INFO   | jvm 1    | 2018/12/08 22:00:08 | Java Runtime: Oracle Corporation 11 /Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home
+INFO   | jvm 1    | 2018/12/08 22:00:08 |   Heap sizes: current=131072k  free=121567k  max=1048576k
+INFO   | jvm 1    | 2018/12/08 22:00:08 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Dhawtio.realm=activemq -Dhawtio.role=admins -Dhawtio.rolePrincipalClasses=org.apache.activemq.jaas.GroupPrincipal -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/macosx/ -Dwrapper.key=NADBBOCyOIqhjfIN -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=44011 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.service=TRUE -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2018/12/08 22:00:08 | Extensions classpath:
+INFO   | jvm 1    | 2018/12/08 22:00:08 |   [../../lib,../../lib/camel,../../lib/optional,../../lib/web,../../lib/extra]
+INFO   | jvm 1    | 2018/12/08 22:00:08 | ACTIVEMQ_HOME: ../..
+INFO   | jvm 1    | 2018/12/08 22:00:08 | ACTIVEMQ_BASE: ../..
+INFO   | jvm 1    | 2018/12/08 22:00:08 | ACTIVEMQ_CONF: ../../conf
+INFO   | jvm 1    | 2018/12/08 22:00:08 | ACTIVEMQ_DATA: ../../data
+INFO   | jvm 1    | 2018/12/08 22:00:08 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2018/12/08 22:00:09 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@65482b53: startup date [Sat Dec 08 22:00:09 CST 2018]; root of context hierarchy
+INFO   | jvm 1    | 2018/12/08 22:00:10 |  INFO | PListStore:[/Users/ailurus/NP/HW4/apache-activemq-5.9.0/bin/macosx/../../data/localhost/tmp_storage] started
+INFO   | jvm 1    | 2018/12/08 22:00:10 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/ailurus/NP/HW4/apache-activemq-5.9.0/bin/macosx/../../data/kahadb]
+INFO   | jvm 1    | 2018/12/08 22:00:10 |  INFO | KahaDB is version 5
+INFO   | jvm 1    | 2018/12/08 22:00:10 |  INFO | Recovering from the journal ...
+INFO   | jvm 1    | 2018/12/08 22:00:10 |  INFO | Recovery replayed 177 operations from the journal in 0.033 seconds.
+INFO   | jvm 1    | 2018/12/08 22:00:10 |  INFO | Apache ActiveMQ 5.9.0 (localhost, ID:Ailurus-MAC.mshome.net-64617-1544277610828-0:1) is starting
+INFO   | jvm 1    | 2018/12/08 22:00:11 |  INFO | Listening for connections at: tcp://Ailurus-MAC.mshome.net:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2018/12/08 22:00:11 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2018/12/08 22:00:11 |  INFO | Listening for connections at: amqp://Ailurus-MAC.mshome.net:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2018/12/08 22:00:11 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2018/12/08 22:00:11 |  INFO | Listening for connections at: stomp://Ailurus-MAC.mshome.net:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2018/12/08 22:00:11 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2018/12/08 22:00:11 |  INFO | Listening for connections at: mqtt://Ailurus-MAC.mshome.net:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2018/12/08 22:00:11 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2018/12/08 22:00:11 |  INFO | Listening for connections at ws://Ailurus-MAC.mshome.net:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2018/12/08 22:00:11 |  INFO | Connector ws started
+INFO   | jvm 1    | 2018/12/08 22:00:11 |  INFO | Apache ActiveMQ 5.9.0 (localhost, ID:Ailurus-MAC.mshome.net-64617-1544277610828-0:1) started
+INFO   | jvm 1    | 2018/12/08 22:00:11 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2018/12/08 22:00:11 |  INFO | Welcome to hawtio 1.2-M23 : http://hawt.io/ : Don't cha wish your console was hawt like me? ;-)
+INFO   | jvm 1    | 2018/12/08 22:00:11 |  INFO | Starting hawtio authentication filter, JAAS realm: "activemq" authorized role: "admins" role principal classes: "org.apache.activemq.jaas.GroupPrincipal"
+INFO   | jvm 1    | 2018/12/08 22:00:11 |  INFO | Using file upload directory: /var/folders/hj/fx5f9fvd50v6hv_ww9yh35mm0000gn/T//uploads
+INFO   | jvm 1    | 2018/12/08 22:00:11 |  INFO | jolokia-agent: Using access restrictor classpath:/jolokia-access.xml
+INFO   | jvm 1    | 2018/12/08 22:00:11 |  INFO | ActiveMQ WebConsole available at http://localhost:8161/
+INFO   | jvm 1    | 2018/12/08 22:00:11 |  INFO | Initializing Spring FrameworkServlet 'dispatcher'

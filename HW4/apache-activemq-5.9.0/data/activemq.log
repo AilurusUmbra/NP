@@ -1,0 +1,344 @@
+2018-12-08 21:37:41,815 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@1691a871: startup date [Sat Dec 08 21:37:41 CST 2018]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | WrapperSimpleAppMain
+2018-12-08 21:37:43,591 | INFO  | PListStore:[/Users/ailurus/NP/HW4/apache-activemq-5.9.0/bin/macosx/../../data/localhost/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2018-12-08 21:37:43,623 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/ailurus/NP/HW4/apache-activemq-5.9.0/bin/macosx/../../data/kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2018-12-08 21:37:43,877 | INFO  | Apache ActiveMQ 5.9.0 (localhost, ID:Ailurus-MAC.mshome.net-64373-1544276263716-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2018-12-08 21:37:43,900 | INFO  | Listening for connections at: tcp://Ailurus-MAC.mshome.net:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2018-12-08 21:37:43,902 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2018-12-08 21:37:43,907 | INFO  | Listening for connections at: amqp://Ailurus-MAC.mshome.net:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2018-12-08 21:37:43,908 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2018-12-08 21:37:43,913 | INFO  | Listening for connections at: stomp://Ailurus-MAC.mshome.net:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2018-12-08 21:37:43,914 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2018-12-08 21:37:43,919 | INFO  | Listening for connections at: mqtt://Ailurus-MAC.mshome.net:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2018-12-08 21:37:43,919 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2018-12-08 21:37:44,107 | INFO  | Listening for connections at ws://Ailurus-MAC.mshome.net:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | WrapperSimpleAppMain
+2018-12-08 21:37:44,108 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2018-12-08 21:37:44,109 | INFO  | Apache ActiveMQ 5.9.0 (localhost, ID:Ailurus-MAC.mshome.net-64373-1544276263716-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2018-12-08 21:37:44,110 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2018-12-08 21:37:44,456 | INFO  | Welcome to hawtio 1.2-M23 : http://hawt.io/ : Don't cha wish your console was hawt like me? ;-) | io.hawt.jmx.JmxTreeWatcher | WrapperSimpleAppMain
+2018-12-08 21:37:44,464 | INFO  | Starting hawtio authentication filter, JAAS realm: "activemq" authorized role: "admins" role principal classes: "org.apache.activemq.jaas.GroupPrincipal" | io.hawt.web.AuthenticationFilter | WrapperSimpleAppMain
+2018-12-08 21:37:44,519 | INFO  | Using file upload directory: /var/folders/hj/fx5f9fvd50v6hv_ww9yh35mm0000gn/T//uploads | io.hawt.web.UploadServlet | WrapperSimpleAppMain
+2018-12-08 21:37:44,535 | INFO  | jolokia-agent: Using access restrictor classpath:/jolokia-access.xml | /hawtio | WrapperSimpleAppMain
+2018-12-08 21:37:44,778 | INFO  | ActiveMQ WebConsole available at http://localhost:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2018-12-08 21:37:44,815 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | WrapperSimpleAppMain
+2018-12-08 21:37:59,508 | WARN  |  | org.eclipse.jetty.servlet.ServletHandler | qtp1494692971-49
+org.apache.jasper.JasperException: PWC6033: Unable to compile class for JSP
+
+PWC6199: Generated servlet error:
+The type java.lang.Class cannot be resolved. It is indirectly referenced from required .class files
+
+PWC6199: Generated servlet error:
+java.util.Vector cannot be resolved to a type
+
+PWC6199: Generated servlet error:
+_jspx_dependants cannot be resolved
+
+PWC6199: Generated servlet error:
+java.util.Vector cannot be resolved to a type
+
+PWC6199: Generated servlet error:
+_jspx_dependants cannot be resolved
+
+PWC6199: Generated servlet error:
+_jspx_dependants cannot be resolved
+
+
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:123)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:296)
+	at org.apache.jasper.compiler.Compiler.generateClass(Compiler.java:376)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:437)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:608)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:360)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:486)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:380)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:806)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:445)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:574)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1044)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:372)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:978)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.Dispatcher.forward(Dispatcher.java:293)
+	at org.eclipse.jetty.server.Dispatcher.forward(Dispatcher.java:120)
+	at org.eclipse.jetty.servlet.DefaultServlet.doGet(DefaultServlet.java:566)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:693)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:806)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:652)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1320)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)
+	at org.apache.activemq.web.filter.ApplicationContextFilter.doFilter(ApplicationContextFilter.java:102)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)
+	at com.opensymphony.sitemesh.webapp.SiteMeshFilter.obtainContent(SiteMeshFilter.java:129)
+	at com.opensymphony.sitemesh.webapp.SiteMeshFilter.doFilter(SiteMeshFilter.java:77)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:443)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1044)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:372)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:978)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:367)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:486)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2018-12-08 21:37:59,515 | WARN  | /admin/ | org.eclipse.jetty.servlet.ServletHandler | qtp1494692971-49
+org.apache.jasper.JasperException: PWC6033: Unable to compile class for JSP
+
+PWC6199: Generated servlet error:
+The type java.lang.Class cannot be resolved. It is indirectly referenced from required .class files
+
+PWC6199: Generated servlet error:
+java.util.Vector cannot be resolved to a type
+
+PWC6199: Generated servlet error:
+_jspx_dependants cannot be resolved
+
+PWC6199: Generated servlet error:
+java.util.Vector cannot be resolved to a type
+
+PWC6199: Generated servlet error:
+_jspx_dependants cannot be resolved
+
+PWC6199: Generated servlet error:
+_jspx_dependants cannot be resolved
+
+
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:123)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:296)
+	at org.apache.jasper.compiler.Compiler.generateClass(Compiler.java:376)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:437)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:608)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:360)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:486)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:380)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:806)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:445)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:574)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1044)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:372)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:978)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.Dispatcher.forward(Dispatcher.java:293)
+	at org.eclipse.jetty.server.Dispatcher.forward(Dispatcher.java:120)
+	at org.eclipse.jetty.servlet.DefaultServlet.doGet(DefaultServlet.java:566)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:693)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:806)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:652)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1320)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)
+	at org.apache.activemq.web.filter.ApplicationContextFilter.doFilter(ApplicationContextFilter.java:102)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)
+	at com.opensymphony.sitemesh.webapp.SiteMeshFilter.obtainContent(SiteMeshFilter.java:129)
+	at com.opensymphony.sitemesh.webapp.SiteMeshFilter.doFilter(SiteMeshFilter.java:77)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:443)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1044)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:372)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:978)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:367)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:486)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2018-12-08 21:48:23,346 | INFO  | Apache ActiveMQ 5.9.0 (localhost, ID:Ailurus-MAC.mshome.net-64373-1544276263716-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2018-12-08 21:48:25,068 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2018-12-08 21:48:27,074 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2018-12-08 21:48:27,266 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2018-12-08 21:48:29,074 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2018-12-08 21:48:29,145 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2018-12-08 21:48:29,154 | INFO  | PListStore:[/Users/ailurus/NP/HW4/apache-activemq-5.9.0/bin/macosx/../../data/localhost/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | ActiveMQ ShutdownHook
+2018-12-08 21:48:29,155 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2018-12-08 21:48:29,155 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2018-12-08 21:48:29,158 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2018-12-08 21:48:29,371 | INFO  | Apache ActiveMQ 5.9.0 (localhost, ID:Ailurus-MAC.mshome.net-64373-1544276263716-0:1) uptime 10 minutes | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2018-12-08 21:48:29,372 | INFO  | Apache ActiveMQ 5.9.0 (localhost, ID:Ailurus-MAC.mshome.net-64373-1544276263716-0:1) is shutdown | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2018-12-08 21:48:29,374 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@1691a871: startup date [Sat Dec 08 21:37:41 CST 2018]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | ActiveMQ ShutdownHook
+2018-12-08 21:48:29,399 | INFO  | Destroying Spring FrameworkServlet 'dispatcher' | /admin | ActiveMQ ShutdownHook
+2018-12-08 21:48:29,406 | INFO  | Destroying hawtio authentication filter | io.hawt.web.AuthenticationFilter | ActiveMQ ShutdownHook
+2018-12-08 21:48:39,660 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@74f36340: startup date [Sat Dec 08 21:48:39 CST 2018]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | WrapperSimpleAppMain
+2018-12-08 21:48:40,706 | INFO  | PListStore:[/Users/ailurus/NP/HW4/apache-activemq-5.9.0/bin/macosx/../../data/localhost/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2018-12-08 21:48:40,732 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/ailurus/NP/HW4/apache-activemq-5.9.0/bin/macosx/../../data/kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2018-12-08 21:48:40,947 | INFO  | KahaDB is version 5 | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2018-12-08 21:48:40,969 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2018-12-08 21:48:40,980 | INFO  | Recovery replayed 129 operations from the journal in 0.024 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2018-12-08 21:48:41,140 | INFO  | Apache ActiveMQ 5.9.0 (localhost, ID:Ailurus-MAC.mshome.net-64486-1544276921000-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2018-12-08 21:48:41,207 | INFO  | Listening for connections at: tcp://Ailurus-MAC.mshome.net:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2018-12-08 21:48:41,209 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2018-12-08 21:48:41,214 | INFO  | Listening for connections at: amqp://Ailurus-MAC.mshome.net:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2018-12-08 21:48:41,216 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2018-12-08 21:48:41,221 | INFO  | Listening for connections at: stomp://Ailurus-MAC.mshome.net:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2018-12-08 21:48:41,222 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2018-12-08 21:48:41,229 | INFO  | Listening for connections at: mqtt://Ailurus-MAC.mshome.net:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2018-12-08 21:48:41,230 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2018-12-08 21:48:41,395 | INFO  | Listening for connections at ws://Ailurus-MAC.mshome.net:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | WrapperSimpleAppMain
+2018-12-08 21:48:41,396 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2018-12-08 21:48:41,399 | INFO  | Apache ActiveMQ 5.9.0 (localhost, ID:Ailurus-MAC.mshome.net-64486-1544276921000-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2018-12-08 21:48:41,400 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2018-12-08 21:48:41,773 | INFO  | Welcome to hawtio 1.2-M23 : http://hawt.io/ : Don't cha wish your console was hawt like me? ;-) | io.hawt.jmx.JmxTreeWatcher | WrapperSimpleAppMain
+2018-12-08 21:48:41,783 | INFO  | Starting hawtio authentication filter, JAAS realm: "activemq" authorized role: "admins" role principal classes: "org.apache.activemq.jaas.GroupPrincipal" | io.hawt.web.AuthenticationFilter | WrapperSimpleAppMain
+2018-12-08 21:48:41,849 | INFO  | Using file upload directory: /var/folders/hj/fx5f9fvd50v6hv_ww9yh35mm0000gn/T//uploads | io.hawt.web.UploadServlet | WrapperSimpleAppMain
+2018-12-08 21:48:41,865 | INFO  | jolokia-agent: Using access restrictor classpath:/jolokia-access.xml | /hawtio | WrapperSimpleAppMain
+2018-12-08 21:48:42,118 | INFO  | ActiveMQ WebConsole available at http://localhost:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2018-12-08 21:48:42,165 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | WrapperSimpleAppMain
+2018-12-08 21:48:54,769 | INFO  | Apache ActiveMQ 5.9.0 (localhost, ID:Ailurus-MAC.mshome.net-64486-1544276921000-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-24
+2018-12-08 21:48:55,239 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | Thread-24
+2018-12-08 21:48:57,244 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | Thread-24
+2018-12-08 21:48:57,936 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | Thread-24
+2018-12-08 21:48:59,266 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | Thread-24
+2018-12-08 21:48:59,339 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | Thread-24
+2018-12-08 21:48:59,346 | INFO  | PListStore:[/Users/ailurus/NP/HW4/apache-activemq-5.9.0/bin/macosx/../../data/localhost/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | Thread-24
+2018-12-08 21:48:59,347 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-24
+2018-12-08 21:48:59,347 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-24
+2018-12-08 21:48:59,349 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | Thread-24
+2018-12-08 21:48:59,604 | INFO  | Apache ActiveMQ 5.9.0 (localhost, ID:Ailurus-MAC.mshome.net-64486-1544276921000-0:1) uptime 18.890 seconds | org.apache.activemq.broker.BrokerService | Thread-24
+2018-12-08 21:48:59,605 | INFO  | Apache ActiveMQ 5.9.0 (localhost, ID:Ailurus-MAC.mshome.net-64486-1544276921000-0:1) is shutdown | org.apache.activemq.broker.BrokerService | Thread-24
+2018-12-08 21:48:59,606 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@74f36340: startup date [Sat Dec 08 21:48:39 CST 2018]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | Thread-24
+2018-12-08 21:48:59,637 | INFO  | Destroying Spring FrameworkServlet 'dispatcher' | /admin | Thread-24
+2018-12-08 21:48:59,642 | INFO  | Destroying hawtio authentication filter | io.hawt.web.AuthenticationFilter | Thread-24
+2018-12-08 21:49:12,720 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@5871bb75: startup date [Sat Dec 08 21:49:12 CST 2018]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | WrapperSimpleAppMain
+2018-12-08 21:49:13,719 | INFO  | PListStore:[/Users/ailurus/NP/HW4/apache-activemq-5.9.0/bin/macosx/../../data/localhost/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2018-12-08 21:49:13,744 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/ailurus/NP/HW4/apache-activemq-5.9.0/bin/macosx/../../data/kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2018-12-08 21:49:13,940 | INFO  | KahaDB is version 5 | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2018-12-08 21:49:13,955 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2018-12-08 21:49:13,965 | INFO  | Recovery replayed 134 operations from the journal in 0.019 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2018-12-08 21:49:14,112 | INFO  | Apache ActiveMQ 5.9.0 (localhost, ID:Ailurus-MAC.mshome.net-64504-1544276953981-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2018-12-08 21:49:14,158 | INFO  | Listening for connections at: tcp://Ailurus-MAC.mshome.net:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2018-12-08 21:49:14,159 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2018-12-08 21:49:14,163 | INFO  | Listening for connections at: amqp://Ailurus-MAC.mshome.net:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2018-12-08 21:49:14,164 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2018-12-08 21:49:14,168 | INFO  | Listening for connections at: stomp://Ailurus-MAC.mshome.net:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2018-12-08 21:49:14,169 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2018-12-08 21:49:14,173 | INFO  | Listening for connections at: mqtt://Ailurus-MAC.mshome.net:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2018-12-08 21:49:14,174 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2018-12-08 21:49:14,295 | INFO  | Listening for connections at ws://Ailurus-MAC.mshome.net:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | WrapperSimpleAppMain
+2018-12-08 21:49:14,296 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2018-12-08 21:49:14,298 | INFO  | Apache ActiveMQ 5.9.0 (localhost, ID:Ailurus-MAC.mshome.net-64504-1544276953981-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2018-12-08 21:49:14,299 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2018-12-08 21:49:14,603 | INFO  | Welcome to hawtio 1.2-M23 : http://hawt.io/ : Don't cha wish your console was hawt like me? ;-) | io.hawt.jmx.JmxTreeWatcher | WrapperSimpleAppMain
+2018-12-08 21:49:14,609 | INFO  | Starting hawtio authentication filter, JAAS realm: "activemq" authorized role: "admins" role principal classes: "org.apache.activemq.jaas.GroupPrincipal" | io.hawt.web.AuthenticationFilter | WrapperSimpleAppMain
+2018-12-08 21:49:14,648 | INFO  | Using file upload directory: /var/folders/hj/fx5f9fvd50v6hv_ww9yh35mm0000gn/T//uploads | io.hawt.web.UploadServlet | WrapperSimpleAppMain
+2018-12-08 21:49:14,660 | INFO  | jolokia-agent: Using access restrictor classpath:/jolokia-access.xml | /hawtio | WrapperSimpleAppMain
+2018-12-08 21:49:14,879 | INFO  | ActiveMQ WebConsole available at http://localhost:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2018-12-08 21:49:14,912 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | WrapperSimpleAppMain
+2018-12-08 21:51:30,174 | INFO  | Apache ActiveMQ 5.9.0 (localhost, ID:Ailurus-MAC.mshome.net-64504-1544276953981-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2018-12-08 21:51:30,426 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2018-12-08 21:51:30,439 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2018-12-08 21:51:32,444 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2018-12-08 21:51:34,447 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2018-12-08 21:51:34,516 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2018-12-08 21:51:34,525 | INFO  | PListStore:[/Users/ailurus/NP/HW4/apache-activemq-5.9.0/bin/macosx/../../data/localhost/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | ActiveMQ ShutdownHook
+2018-12-08 21:51:34,526 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2018-12-08 21:51:34,527 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2018-12-08 21:51:34,529 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2018-12-08 21:51:34,641 | INFO  | Apache ActiveMQ 5.9.0 (localhost, ID:Ailurus-MAC.mshome.net-64504-1544276953981-0:1) uptime 2 minutes | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2018-12-08 21:51:34,642 | INFO  | Apache ActiveMQ 5.9.0 (localhost, ID:Ailurus-MAC.mshome.net-64504-1544276953981-0:1) is shutdown | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2018-12-08 21:51:34,643 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@5871bb75: startup date [Sat Dec 08 21:49:12 CST 2018]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | ActiveMQ ShutdownHook
+2018-12-08 21:51:34,672 | INFO  | Destroying Spring FrameworkServlet 'dispatcher' | /admin | ActiveMQ ShutdownHook
+2018-12-08 21:51:34,680 | INFO  | Destroying hawtio authentication filter | io.hawt.web.AuthenticationFilter | ActiveMQ ShutdownHook
+2018-12-08 21:59:02,285 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@5070b7f: startup date [Sat Dec 08 21:59:02 CST 2018]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | WrapperSimpleAppMain
+2018-12-08 21:59:03,340 | INFO  | PListStore:[/Users/ailurus/NP/HW4/apache-activemq-5.9.0/bin/macosx/../../data/localhost/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2018-12-08 21:59:03,368 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/ailurus/NP/HW4/apache-activemq-5.9.0/bin/macosx/../../data/kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2018-12-08 21:59:03,670 | INFO  | KahaDB is version 5 | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2018-12-08 21:59:03,690 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2018-12-08 21:59:03,700 | INFO  | Recovery replayed 163 operations from the journal in 0.021 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2018-12-08 21:59:03,861 | INFO  | Apache ActiveMQ 5.9.0 (localhost, ID:Ailurus-MAC.mshome.net-64610-1544277543719-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2018-12-08 21:59:03,941 | INFO  | Listening for connections at: tcp://Ailurus-MAC.mshome.net:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2018-12-08 21:59:03,943 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2018-12-08 21:59:03,947 | INFO  | Listening for connections at: amqp://Ailurus-MAC.mshome.net:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2018-12-08 21:59:03,948 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2018-12-08 21:59:03,953 | INFO  | Listening for connections at: stomp://Ailurus-MAC.mshome.net:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2018-12-08 21:59:03,954 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2018-12-08 21:59:03,958 | INFO  | Listening for connections at: mqtt://Ailurus-MAC.mshome.net:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2018-12-08 21:59:03,959 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2018-12-08 21:59:04,109 | INFO  | Listening for connections at ws://Ailurus-MAC.mshome.net:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | WrapperSimpleAppMain
+2018-12-08 21:59:04,109 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2018-12-08 21:59:04,112 | INFO  | Apache ActiveMQ 5.9.0 (localhost, ID:Ailurus-MAC.mshome.net-64610-1544277543719-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2018-12-08 21:59:04,113 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2018-12-08 21:59:04,452 | INFO  | Welcome to hawtio 1.2-M23 : http://hawt.io/ : Don't cha wish your console was hawt like me? ;-) | io.hawt.jmx.JmxTreeWatcher | WrapperSimpleAppMain
+2018-12-08 21:59:04,458 | INFO  | Starting hawtio authentication filter, JAAS realm: "activemq" authorized role: "admins" role principal classes: "org.apache.activemq.jaas.GroupPrincipal" | io.hawt.web.AuthenticationFilter | WrapperSimpleAppMain
+2018-12-08 21:59:04,508 | INFO  | Using file upload directory: /var/folders/hj/fx5f9fvd50v6hv_ww9yh35mm0000gn/T//uploads | io.hawt.web.UploadServlet | WrapperSimpleAppMain
+2018-12-08 21:59:04,523 | INFO  | jolokia-agent: Using access restrictor classpath:/jolokia-access.xml | /hawtio | WrapperSimpleAppMain
+2018-12-08 21:59:04,791 | INFO  | ActiveMQ WebConsole available at http://localhost:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2018-12-08 21:59:04,826 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | WrapperSimpleAppMain
+2018-12-08 22:00:01,182 | INFO  | Apache ActiveMQ 5.9.0 (localhost, ID:Ailurus-MAC.mshome.net-64610-1544277543719-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2018-12-08 22:00:02,054 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2018-12-08 22:00:04,057 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2018-12-08 22:00:05,369 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2018-12-08 22:00:06,067 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2018-12-08 22:00:06,138 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2018-12-08 22:00:06,145 | INFO  | PListStore:[/Users/ailurus/NP/HW4/apache-activemq-5.9.0/bin/macosx/../../data/localhost/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | ActiveMQ ShutdownHook
+2018-12-08 22:00:06,146 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2018-12-08 22:00:06,147 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2018-12-08 22:00:06,148 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2018-12-08 22:00:06,183 | INFO  | Apache ActiveMQ 5.9.0 (localhost, ID:Ailurus-MAC.mshome.net-64610-1544277543719-0:1) uptime 1 minute | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2018-12-08 22:00:06,183 | INFO  | Apache ActiveMQ 5.9.0 (localhost, ID:Ailurus-MAC.mshome.net-64610-1544277543719-0:1) is shutdown | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2018-12-08 22:00:06,184 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@5070b7f: startup date [Sat Dec 08 21:59:02 CST 2018]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | ActiveMQ ShutdownHook
+2018-12-08 22:00:06,213 | INFO  | Destroying Spring FrameworkServlet 'dispatcher' | /admin | ActiveMQ ShutdownHook
+2018-12-08 22:00:06,221 | INFO  | Destroying hawtio authentication filter | io.hawt.web.AuthenticationFilter | ActiveMQ ShutdownHook
+2018-12-08 22:00:09,039 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@65482b53: startup date [Sat Dec 08 22:00:09 CST 2018]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | WrapperSimpleAppMain
+2018-12-08 22:00:10,532 | INFO  | PListStore:[/Users/ailurus/NP/HW4/apache-activemq-5.9.0/bin/macosx/../../data/localhost/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2018-12-08 22:00:10,559 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/ailurus/NP/HW4/apache-activemq-5.9.0/bin/macosx/../../data/kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2018-12-08 22:00:10,766 | INFO  | KahaDB is version 5 | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2018-12-08 22:00:10,789 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2018-12-08 22:00:10,810 | INFO  | Recovery replayed 177 operations from the journal in 0.033 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2018-12-08 22:00:10,977 | INFO  | Apache ActiveMQ 5.9.0 (localhost, ID:Ailurus-MAC.mshome.net-64617-1544277610828-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2018-12-08 22:00:11,058 | INFO  | Listening for connections at: tcp://Ailurus-MAC.mshome.net:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2018-12-08 22:00:11,059 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2018-12-08 22:00:11,066 | INFO  | Listening for connections at: amqp://Ailurus-MAC.mshome.net:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2018-12-08 22:00:11,067 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2018-12-08 22:00:11,074 | INFO  | Listening for connections at: stomp://Ailurus-MAC.mshome.net:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2018-12-08 22:00:11,076 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2018-12-08 22:00:11,085 | INFO  | Listening for connections at: mqtt://Ailurus-MAC.mshome.net:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2018-12-08 22:00:11,087 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2018-12-08 22:00:11,239 | INFO  | Listening for connections at ws://Ailurus-MAC.mshome.net:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | WrapperSimpleAppMain
+2018-12-08 22:00:11,240 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2018-12-08 22:00:11,242 | INFO  | Apache ActiveMQ 5.9.0 (localhost, ID:Ailurus-MAC.mshome.net-64617-1544277610828-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2018-12-08 22:00:11,244 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2018-12-08 22:00:11,594 | INFO  | Welcome to hawtio 1.2-M23 : http://hawt.io/ : Don't cha wish your console was hawt like me? ;-) | io.hawt.jmx.JmxTreeWatcher | WrapperSimpleAppMain
+2018-12-08 22:00:11,600 | INFO  | Starting hawtio authentication filter, JAAS realm: "activemq" authorized role: "admins" role principal classes: "org.apache.activemq.jaas.GroupPrincipal" | io.hawt.web.AuthenticationFilter | WrapperSimpleAppMain
+2018-12-08 22:00:11,645 | INFO  | Using file upload directory: /var/folders/hj/fx5f9fvd50v6hv_ww9yh35mm0000gn/T//uploads | io.hawt.web.UploadServlet | WrapperSimpleAppMain
+2018-12-08 22:00:11,667 | INFO  | jolokia-agent: Using access restrictor classpath:/jolokia-access.xml | /hawtio | WrapperSimpleAppMain
+2018-12-08 22:00:11,903 | INFO  | ActiveMQ WebConsole available at http://localhost:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2018-12-08 22:00:11,937 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | WrapperSimpleAppMain

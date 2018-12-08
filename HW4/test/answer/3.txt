@@ -1,0 +1,44 @@
+Success!
+Success!
+Success!
+Success!
+Success!
+Success!
+Success!
+Success!
+Success!
+Success!
+Usage: delete <user>
+Success!
+Success!
+Success!
+Success!
+Success!
+Success!
+Success!
+Success!
+Success!
+Success!
+Not login yet
+Not login yet
+Not login yet
+Not login yet
+Not login yet
+Not login yet
+Not login yet
+Not login yet
+Not login yet
+Not login yet
+No such user or password error
+No such user or password error
+No such user or password error
+No such user or password error
+No such user or password error
+No such user or password error
+No such user or password error
+No such user or password error
+No such user or password error
+No such user or password error
+Not login yet
+Not login yet
+Not login yet

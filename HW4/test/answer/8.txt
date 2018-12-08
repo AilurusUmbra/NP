@@ -1,0 +1,63 @@
+Success!
+Success!
+Success!
+Success!
+Success!
+Success!
+Success!
+Success!
+Success!
+Success!
+Usage: list-friend <user>
+DeMo_user10
+DeMo_user2
+Success!
+DeMo_user1
+DeMo_user3
+Success!
+DeMo_user2
+Success!
+No friends
+Success!
+No friends
+Success!
+No friends
+Success!
+DeMo_user8
+Success!
+DeMo_user7
+DeMo_user9
+Success!
+DeMo_user8
+DeMo_user10
+Success!
+DeMo_user9
+DeMo_user1
+Success!
+DeMo_user9
+DeMo_user1
+Success!
+DeMo_user8
+DeMo_user10
+Success!
+DeMo_user7
+DeMo_user9
+Success!
+DeMo_user8
+Success!
+No friends
+Success!
+No friends
+Success!
+No friends
+Success!
+DeMo_user2
+Success!
+DeMo_user1
+DeMo_user3
+Success!
+DeMo_user10
+DeMo_user2
+Not login yet
+Not login yet
+Not login yet

@@ -1,0 +1,12 @@
+reg a a
+logi a a
+receive-p a
+list-i a
+list-f a
+pos a
+accept a
+inv a
+logo a
+del a
+exi
+exit

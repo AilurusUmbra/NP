@@ -1,0 +1,65 @@
+register DeMo_user1 DeMo_pwd1
+register DeMo_user2 DeMo_pwd2
+register DeMo_user3 DeMo_pwd3
+register DeMo_user4 DeMo_pwd4
+register DeMo_user5 DeMo_pwd5
+register DeMo_user6 DeMo_pwd6
+register DeMo_user7 DeMo_pwd7
+register DeMo_user8 DeMo_pwd8
+register DeMo_user9 DeMo_pwd9
+register DeMo_user10 DeMo_pwd10
+login DeMo_user1 DeMo_pwd1
+login DeMo_user2 DeMo_pwd2
+login DeMo_user3 DeMo_pwd3
+login DeMo_user4 DeMo_pwd4
+login DeMo_user5 DeMo_pwd5
+login DeMo_user6 DeMo_pwd6
+login DeMo_user7 DeMo_pwd7
+login DeMo_user8 DeMo_pwd8
+login DeMo_user9 DeMo_pwd9
+login DeMo_user10 DeMo_pwd10
+logout DeMo_user1 a
+logout DeMo_user1
+logout DeMo_user2
+logout DeMo_user3
+logout DeMo_user4
+logout DeMo_user5
+logout DeMo_user6
+logout DeMo_user7
+logout DeMo_user8
+logout DeMo_user9
+logout DeMo_user10
+logout DeMo_user1
+logout DeMo_user2
+logout DeMo_user3
+logout DeMo_user4
+logout DeMo_user5
+logout DeMo_user6
+logout DeMo_user7
+logout DeMo_user8
+logout DeMo_user9
+logout DeMo_user10
+login DeMo_user1 DeMo
+login DeMo_user2 DeMo
+login DeMo_user3 DeMo
+login DeMo_user4 DeMo
+login DeMo_user5 DeMo
+login DeMo_user6 DeMo
+login DeMo_user7 DeMo
+login DeMo_user8 DeMo
+login DeMo_user9 DeMo
+login DeMo_user10 DeMo
+login DeMo_user1 DeMo_pwd1
+login DeMo_user2 DeMo_pwd2
+login DeMo_user3 DeMo_pwd3
+login DeMo_user4 DeMo_pwd4
+login DeMo_user5 DeMo_pwd5
+login DeMo_user6 DeMo_pwd6
+login DeMo_user7 DeMo_pwd7
+login DeMo_user8 DeMo_pwd8
+login DeMo_user9 DeMo_pwd9
+login DeMo_user10 DeMo_pwd10
+logout
+logout a
+logout a b
+exit

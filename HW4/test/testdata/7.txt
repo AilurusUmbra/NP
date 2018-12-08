@@ -1,0 +1,54 @@
+login DeMo_user1 DeMo_pwd1
+login DeMo_user2 DeMo_pwd2
+login DeMo_user3 DeMo_pwd3
+login DeMo_user4 DeMo_pwd4
+login DeMo_user5 DeMo_pwd5
+login DeMo_user6 DeMo_pwd6
+login DeMo_user7 DeMo_pwd7
+login DeMo_user8 DeMo_pwd8
+login DeMo_user9 DeMo_pwd9
+login DeMo_user10 DeMo_pwd10
+accept-invite DeMo_user1
+accept-invite DeMo_user1 a
+accept-invite DeMo_user1 DeMo_user10
+accept-invite DeMo_user2 DeMo_user1
+accept-invite DeMo_user3 DeMo_user2
+accept-invite DeMo_user4 DeMo_user3
+accept-invite DeMo_user5 DeMo_user4
+accept-invite DeMo_user6 DeMo_user5
+accept-invite DeMo_user7 DeMo_user6
+accept-invite DeMo_user8 DeMo_user7
+accept-invite DeMo_user9 DeMo_user8
+accept-invite DeMo_user10 DeMo_user9
+accept-invite DeMo_user1 DeMo_user10
+accept-invite DeMo_user2 DeMo_user1
+accept-invite DeMo_user3 DeMo_user2
+accept-invite DeMo_user4 DeMo_user3
+accept-invite DeMo_user5 DeMo_user4
+accept-invite DeMo_user6 DeMo_user5
+accept-invite DeMo_user7 DeMo_user6
+accept-invite DeMo_user8 DeMo_user7
+accept-invite DeMo_user9 DeMo_user8
+accept-invite DeMo_user10 DeMo_user9
+invite DeMo_user1 DeMo_user2
+invite DeMo_user2 DeMo_user3
+invite DeMo_user3 DeMo_user5
+invite DeMo_user5 DeMo_user7
+invite DeMo_user7 DeMo_user8
+invite DeMo_user8 DeMo_user9
+invite DeMo_user9 DeMo_user10
+list-invite DeMo_user1
+list-invite DeMo_user2
+list-invite DeMo_user3
+list-invite DeMo_user4
+list-invite DeMo_user5
+list-invite DeMo_user6
+list-invite DeMo_user7
+list-invite DeMo_user8
+list-invite DeMo_user9
+list-invite DeMo_user10
+accept-invite
+accept-invite a
+accept-invite a b
+accept-invite a b c
+exit

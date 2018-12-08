@@ -1,0 +1,25 @@
+register DeMo_user1 DeMo_pwd1 a
+register DeMo_user1 DeMo_pwd1
+register DeMo_user1 abc
+register DeMo_user2 DeMo_pwd2
+register DeMo_user2 abc
+register DeMo_user3 DeMo_pwd3
+register DeMo_user3 abc
+register DeMo_user4 DeMo_pwd4
+register DeMo_user4 abc
+register DeMo_user5 DeMo_pwd5
+register DeMo_user5 abc
+register DeMo_user6 DeMo_pwd6
+register DeMo_user6 abc
+register DeMo_user7 DeMo_pwd7
+register DeMo_user7 abc
+register DeMo_user8 DeMo_pwd8
+register DeMo_user8 abc
+register DeMo_user9 DeMo_pwd9
+register DeMo_user9 abc
+register DeMo_user10 DeMo_pwd10
+register DeMo_user10 abc
+register
+register a
+register a b c
+exit

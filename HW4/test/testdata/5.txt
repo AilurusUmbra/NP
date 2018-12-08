@@ -1,0 +1,35 @@
+login DeMo_user1 DeMo_pwd1
+login DeMo_user2 DeMo_pwd2
+login DeMo_user3 DeMo_pwd3
+login DeMo_user4 DeMo_pwd4
+login DeMo_user5 DeMo_pwd5
+login DeMo_user6 DeMo_pwd6
+login DeMo_user7 DeMo_pwd7
+login DeMo_user8 DeMo_pwd8
+login DeMo_user9 DeMo_pwd9
+login DeMo_user10 DeMo_pwd10
+invite DeMo_user1 FAKE_USER
+invite DeMo_user1 DeMo_user2 a
+invite DeMo_user1 DeMo_user2
+invite DeMo_user2 DeMo_user3
+invite DeMo_user3 DeMo_user5
+invite DeMo_user5 DeMo_user7
+invite DeMo_user7 DeMo_user8
+invite DeMo_user8 DeMo_user9
+invite DeMo_user9 DeMo_user10
+invite DeMo_user10 DeMo_user1
+invite DeMo_user1 DeMo_user1
+invite DeMo_user2 DeMo_user1
+invite DeMo_user1 DeMo_user2
+invite DeMo_user2 DeMo_user3
+invite DeMo_user3 DeMo_user5
+invite DeMo_user5 DeMo_user7
+invite DeMo_user7 DeMo_user8
+invite DeMo_user8 DeMo_user9
+invite DeMo_user9 DeMo_user10
+invite DeMo_user10 DeMo_user1
+invite
+invite a
+invite a b
+invite a b c
+exit

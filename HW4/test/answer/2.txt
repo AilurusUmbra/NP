@@ -1,0 +1,25 @@
+Usage: login <id> <password>
+Success!
+Success!
+Success!
+Success!
+Success!
+Success!
+Success!
+Success!
+Success!
+Success!
+Success!
+Success!
+Success!
+Success!
+Success!
+Success!
+Success!
+Success!
+Success!
+Success!
+Usage: login <id> <password>
+Usage: login <id> <password>
+No such user or password error
+Usage: login <id> <password>

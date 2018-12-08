@@ -1,0 +1,11 @@
+Unknown command reg
+Unknown command logi
+Unknown command receive-p
+Unknown command list-i
+Unknown command list-f
+Unknown command pos
+Unknown command accept
+Unknown command inv
+Unknown command logo
+Unknown command del
+Unknown command exi
