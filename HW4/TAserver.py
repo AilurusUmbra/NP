@@ -245,7 +245,7 @@ class DBControl(object):
                 'message': 'Usage: send <user> <friend> <message>'
             }
 
-        # C(friend not exist)
+        #
         friend = User.get_or_none(User.username == friendname)
         if friend:
             res1 = Friend.get_or_none((Friend.user == token.owner) & (Friend.friend == friend))
@@ -356,7 +356,6 @@ class DBControl(object):
         }
 
 
-
     @__auth
     def list_joined(self, token, *args):
         # Usage
@@ -373,6 +372,44 @@ class DBControl(object):
             'status': 0,
             'group': res
         }
+
+
+    @__auth
+    def send_group(self, token, groupname=None, *args):
+
+        # B(Usage)
+        if not groupname or len(args) <=0 :
+            return {
+                'status': 1,
+                'message': 'Usage: send-group <user> <group> <message>'
+            }
+        #
+        group = Group.get_or_none(Group.groupname == groupname)
+        if group:
+            res1 = Subscribe.get_or_none((Subscribe.user == token.owner) & (Subscribe.group == group))
+            if res1:
+                # Send msg to group
+                self.connectMQ(
+                    '/topic/'+groupname,
+                    '<<<{0}->GROUP<{1}>:{2}>>>'.format(token.owner, groupname, ' '.join(args)))
+                return {
+                    'status': 0,
+                    'message': 'Success!'
+                }
+            else:
+                # D(not member in group)
+                return {
+                    'status': 1,
+                    'message': 'You are not the member of {}'.format(groupname)
+                }
+        else:
+            # C(group not exist)
+            return {
+                'status': 1,
+                'message': 'No such group exist'
+            }
+        pass
+
 
 class Server(object):
     def __init__(self, ip, port):
