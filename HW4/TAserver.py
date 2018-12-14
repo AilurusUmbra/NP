@@ -3,7 +3,7 @@ import socket
 from model import *
 import json
 import uuid
-
+import stomp
 
 class DBControl(object):
     def __auth(func):
@@ -227,8 +227,63 @@ class DBControl(object):
             'post': post
         }
 
+    """ Hw4 ActiveMQ """
+
+    def connectMQ(self, dest, msg):
+        conn = stomp.Connection()
+        conn.connect()
+        conn.send(dest, msg)
+        conn.disconnect()
+
+    @__auth
+    def send(self, token, friendname=None, *args):
+
+        # Usage
+        if not friendname or len(args) <=0 :
+            return {
+                'status': 1,
+                'message': 'Usage: send <user> <friend> <message>'
+            }
+
+        # C(friend not exist)
+        friend = User.get_or_none(User.username == friendname)
+        if friend:
+            res1 = Friend.get_or_none((Friend.user == token.owner) & (Friend.friend == friend))
+            res2 = Friend.get_or_none((Friend.friend == token.owner) & (Friend.user == friend))
+            if res1 or res2:
+                # E(offline)
+                t = Token.get_or_none(Token.owner == friend)
+                if not t:
+                    return {
+                        'status': 1,
+                        'message': '{} is not online'.format(friendname)
+                    }
+                # Send msg to friend
+                self.connectMQ(
+                    '/queue/'+friendname,
+                    '<<<{0}->{1}: {2}>>>'.format(token.owner, friendname, ' '.join(args)))
+                return {
+                    'status': 0,
+                    'message': 'Success!'
+                }
+            else:
+                # D(not your friend)
+                return {
+                    'status': 1,
+                    'message': '{} is not your friend'.format(friendname)
+                }
+        else:
+            # C(friend not exist)
+            return {
+                'status': 1,
+                'message': 'No such user exist'
+            }
+        pass
+
+
     @__auth
     def create_group(self, token, groupname=None, *args):
+        # Usage
         if not groupname or args:
             return {
                 'status': 1,
@@ -256,6 +311,7 @@ class DBControl(object):
 
     @__auth
     def join_group(self, token, groupname=None, *args):
+        # Usage
         if not groupname or args:
             return {
                 'status': 1,
@@ -284,6 +340,7 @@ class DBControl(object):
 
     @__auth
     def list_group(self, token, *args):
+        # Usage
         if args:
             return {
                 'status': 1,
@@ -302,6 +359,7 @@ class DBControl(object):
 
     @__auth
     def list_joined(self, token, *args):
+        # Usage
         if args:
             return {
                 'status': 1,
