@@ -2,6 +2,19 @@ import sys
 import socket
 import json
 import os
+import stomp
+
+class Listener():
+    def on_message(self, headers, msg):
+        print(msg)
+
+class UserInfo():
+    def __init__(self, name, token):
+        self.username = name
+        self.token = token
+        #self.user_sub = sub_id
+        #sub_id = token
+        self.group_sub = {}
 
 
 class Client(object):
@@ -17,6 +30,12 @@ class Client(object):
         except Exception as e:
             print(e, file=sys.stderr)
             sys.exit(1)
+
+        self.username=""
+        self.users={}
+        self.mq = stomp.Connection([(self.ip, 61613)])
+        self.mq.set_listener('', Listener())
+        self.mq.connect()
 
     def run(self):
         while True:
@@ -68,13 +87,30 @@ class Client(object):
 
         if cmd:
             command = cmd.split()
-            if resp['status'] == 0 and command[0] == 'login':
-                self.cookie[command[1]] = resp['token']
+            if resp['status'] == 0: 
+                if command[0] == 'login':
+                    self.users[self.username] = UserInfo(self.username, resp['token'])
+                    self.cookie[command[1]] = resp['token']
+                    self.__amq_subscribe(command[1], command[1])
+
+                elif command[0] == 'logout' or command[0] == 'delete':
+                    self.__amq_user_unsub(self.users[self.username])
+                    self.users.pop(self.username)
+
+                if 'groupname' in resp:
+                    print("yes has group")
+                    for g in resp['groupname']:
+                        print("subscribe group: ", self.username, '/topic/' + g)
+                        self.users[self.username].group_sub[g] = '/topic/' + g 
+                        print("no problem1")
+                        self.__amq_subscribe(self.username , '/topic/' + g)
+                        print("no 2")
 
     def __attach_token(self, cmd=None):
         if cmd:
             command = cmd.split()
             if len(command) > 1:
+                self.username = command[1]
                 if command[0] != 'register' and command[0] != 'login':
                     if command[1] in self.cookie:
                         command[1] = self.cookie[command[1]]
@@ -83,6 +119,17 @@ class Client(object):
             return ' '.join(command)
         else:
             return cmd
+
+    def __amq_subscribe(self, user, ch):
+        self.mq.subscribe(ch, user+ch)
+
+
+
+    def __amq_user_unsub(self, userinfo):
+        print("unsub")
+        self.mq.unsubscribe(userinfo.username)
+        for ele in userinfo.group_sub.values():
+            self.mq.unsubscribe(userinfo.username+ele)
 
 
 def launch_client(ip, port):

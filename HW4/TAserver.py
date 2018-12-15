@@ -65,9 +65,17 @@ class DBControl(object):
             t = Token.get_or_none(Token.owner == res)
             if not t:
                 t = Token.create(token=str(uuid.uuid4()), owner=res)
+            """ HW4 """
+            token = Token.get_or_none(Token.owner == res)
+            groups = Subscribe.select().where((Subscribe.user == token.owner))
+            groupname = []
+            for g in groups:
+                groupname.append(g.group.groupname)
+            print("login, groupname:", groupname)
             return {
                 'status': 0,
                 'token': t.token,
+                'groupname': groupname,
                 'message': 'Success!'
             }
         else:
@@ -261,7 +269,7 @@ class DBControl(object):
                 # Send msg to friend
                 self.connectMQ(
                     '/queue/'+friendname,
-                    '<<<{0}->{1}: {2}>>>'.format(token.owner, friendname, ' '.join(args)))
+                    '<<<{0}->{1}: {2}>>>'.format(token.owner.username, friendname, ' '.join(args)))
                 return {
                     'status': 0,
                     'message': 'Success!'
@@ -391,7 +399,7 @@ class DBControl(object):
                 # Send msg to group
                 self.connectMQ(
                     '/topic/'+groupname,
-                    '<<<{0}->GROUP<{1}>:{2}>>>'.format(token.owner, groupname, ' '.join(args)))
+                    '<<<{0}->GROUP<{1}>:{2}>>>'.format(token.owner.username, groupname, ' '.join(args)))
                 return {
                     'status': 0,
                     'message': 'Success!'
